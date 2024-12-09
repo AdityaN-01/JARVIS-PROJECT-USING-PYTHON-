@@ -40,7 +40,7 @@ def speak(text):
 
     
 def aiProcess(command):
-    client = OpenAI(api_key="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",
+    client = OpenAI(api_key="Enter your API",
     )
 
     completion = client.chat.completions.create(
